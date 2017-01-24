@@ -1,0 +1,38 @@
+{
+  "name": "CheckBox",
+  "version": "0.1.0",
+  "main": "CheckBox.js",
+  "description": "CheckBox is simple [React] component with CheckBox behavior.",
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "Martin A. Jackson",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinjackson/CheckBox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinjackson/CheckBox/issues"
+  },
+  "homepage": "https://github.com/martinjackson/CheckBox",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ]
+  },
+  "scripts": {
+    "build": "babel  CheckBox.es6 --out-file CheckBox.js",
+    "prepublish": "npm run build"
+  }
+}
